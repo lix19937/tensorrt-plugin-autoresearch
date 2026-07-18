@@ -1,0 +1,14 @@
+---
+ in-tensor:
+[7, 510, 4, 64]                  fp16     kLINEAR
+[1, 2]                           int32    kLINEAR      [17, 30]
+[1]                              int32    kLINEAR      [0]
+[7, 22080, 4, 1, 8, 2]           fp16     kLINEAR
+[7, 22080, 1, 4]                 fp16     kLINEAR
+[7, 22080, 4, 1, 8]              fp16     kLINEAR
+[1, 840, 184, 2]                 fp16     kLINEAR
+[1, 22080, 1]                    fp16     kLINEAR
+
+ out-tensor:
+[1, 22080, 256]                  fp16     kLINEAR
+   

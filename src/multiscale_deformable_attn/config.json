@@ -1,0 +1,13 @@
+{
+  "gpu_device_id": 0,
+  "min_latency_decline": 0.2,
+  "min_speedup": 1.2,
+  "default_warmup": 50,
+  "default_profile": 1,
+  "default_benchmark": 120,
+  "default_benchmark_reps": 5,
+  "each_out_tensor_shm_max_size": 167772160,
+  "io_meta": "/workspaces/gitlab/cuda_cross_compile_agent/src/multiscale_deformable_attn/io.meta",
+  "lib_baseline": "/workspaces/gitlab/cuda_cross_compile_agent/build/libbaseline.so",
+  "lib_exp": "/workspaces/gitlab/cuda_cross_compile_agent/build/libexp.so"
+}

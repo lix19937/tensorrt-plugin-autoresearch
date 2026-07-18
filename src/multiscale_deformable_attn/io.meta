@@ -1,0 +1,139 @@
+---
+ in-tensor:
+[1, 22080, 4, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 22080, 4, 1, 4, 2]           fp16     kLINEAR          
+[1, 22080, 4, 1, 4]              fp16     kLINEAR          
+ out-tensor:
+[1, 22080, 4, 64]                fp16     kLINEAR         
+
+---
+ in-tensor:
+[7, 510, 4, 64]                  fp32     kLINEAR          
+[1, 2]                           int32    kLINEAR          [17, 30]
+[1]                              int32    kLINEAR          [0]
+[7, 22080, 4, 1, 8, 2]           fp32     kLINEAR          
+[7, 22080, 4, 1, 8]              fp32     kLINEAR          
+ out-tensor:
+[7, 22080, 4, 64]                fp32     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp32     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp32     kLINEAR          
+[1, 100, 8, 1, 20]               fp32     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp32     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp32     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp32     kLINEAR          
+[1, 50, 8, 1, 25]                fp32     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp32     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp16     kLINEAR          
+[1, 100, 8, 1, 20]               fp16     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp16     kLINEAR          
+[1, 50, 8, 1, 25]                fp16     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp16     kLINEAR          
+[1, 100, 8, 1, 20]               fp16     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp16     kLINEAR          
+[1, 50, 8, 1, 25]                fp16     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp16     kLINEAR          
+[1, 100, 8, 1, 20]               fp16     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp16     kLINEAR          
+[1, 50, 8, 1, 25]                fp16     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp16     kLINEAR          
+[1, 100, 8, 1, 20]               fp16     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp16     kLINEAR          
+[1, 50, 8, 1, 25]                fp16     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 100, 8, 1, 20, 2]            fp16     kLINEAR          
+[1, 100, 8, 1, 20]               fp16     kLINEAR          
+ out-tensor:
+[1, 100, 8, 64]                  fp16     kLINEAR         
+
+---
+ in-tensor:
+[1, 22080, 8, 64]                fp16     kLINEAR          
+[1, 2]                           int32    kLINEAR          [120, 184]
+[1]                              int32    kLINEAR          [0]
+[1, 50, 8, 1, 25, 2]             fp16     kLINEAR          
+[1, 50, 8, 1, 25]                fp16     kLINEAR          
+ out-tensor:
+[1, 50, 8, 64]                   fp16     kLINEAR     

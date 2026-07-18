@@ -1,0 +1,16 @@
+---
+ in-tensor:
+[100000, 10, 5]                  fp16     kLINEAR          
+[100000, 4]                      int32    kLINEAR          ["/workspaces/gitlab/cuda_cross_compile_agent/src/pillarvfe/input/voxel_coords.bin"]
+[100000]                         int32    kLINEAR          ["/workspaces/gitlab/cuda_cross_compile_agent/src/pillarvfe/input/voxel_num_points.bin"]
+ out-tensor:
+[100000, 64]                     fp16     kLINEAR         
+  
+---
+ in-tensor:
+[40000, 20, 5]                   fp16     kLINEAR          
+[40000, 4]                       int32    kLINEAR          ["/workspaces/gitlab/cuda_cross_compile_agent/src/pillarvfe/input/coors.bin"]
+[40000]                          int32    kLINEAR          ["/workspaces/gitlab/cuda_cross_compile_agent/src/pillarvfe/input/num_points.bin"]
+ out-tensor:
+[40000, 64]                      fp16     kLINEAR         
+  
