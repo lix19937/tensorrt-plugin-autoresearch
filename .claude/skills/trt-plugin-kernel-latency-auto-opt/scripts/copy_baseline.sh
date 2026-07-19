@@ -18,5 +18,7 @@ EXP_DIR=${WORKSPACES}/src/${TARGET}/exp
 if [ ! -d ${EXP_DIR} ]; then
   mkdir -m 777 ${EXP_DIR}
   cp -fr ${BASELINE_PATH}/*.cu ${EXP_DIR}/
+else
+  echo "--"
 fi
 

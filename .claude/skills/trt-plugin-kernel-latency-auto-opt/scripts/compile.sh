@@ -12,5 +12,7 @@ SHELL_PATH=$(cd $(dirname "$0") && pwd)
 
 source ${SHELL_PATH}/common.sh
 
+bash ${SHELL_PATH}/copy_baseline.sh  
+
 bash ${WORKSPACES}/build.sh x86
 

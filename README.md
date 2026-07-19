@@ -7,7 +7,7 @@ Based on Karpathy's autoresearch — `constraint + mechanical metric + autonomou
 <br>
 *"Set the GOAL → The agent runs the LOOP → You wake up to results"*
 *You don't need AGI. You need a goal, a metric, and a loop that never quits.*
-<br>
+<br>    
 
 ## How It Works
 
@@ -76,7 +76,7 @@ bash .claude/skills/trt-plugin-kernel-latency-auto-opt/scripts/start_compare.sh 
 # ai-drived   
 ```
 
-### more to see  
+### More to see  
 https://github.com/lix19937/llm-deploy/blob/master/auto_evolution.md   
 
 -----
