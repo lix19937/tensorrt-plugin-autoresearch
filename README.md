@@ -2,13 +2,13 @@
 
 ## Background   
 [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) demonstrated that a 630-line Python script could autonomously improve ML models overnight — **100 experiments in a night** — by following simple principles: one metric, constrained scope, fast verification, automatic rollback, git as memory.    
+
 Based on Karpathy's autoresearch — `constraint + mechanical metric + autonomous iteration = compounding gains`. So obey the roadmap: **Baseline → Modify → Verify/Metric → Keep/Discard → Repeat forever**.    
 <br>
 
 *"Set the GOAL → The agent runs the LOOP → You wake up to results"*
 *You don't need AGI. You need a goal, a metric, and a loop that never quits.*
-
-<br>
+<br>    
 
 ## How It Works
 
@@ -77,7 +77,7 @@ bash .claude/skills/trt-plugin-kernel-latency-auto-opt/scripts/start_compare.sh 
 # ai-drived   
 ```
 
-### more to see  
+### More to see  
 https://github.com/lix19937/llm-deploy/blob/master/auto_evolution.md   
 
 -----
