@@ -44,6 +44,30 @@ Before looping, Claude performs a one-time setup:
 | 8 | **When stuck, think harder** — re-read, combine near-misses, try radical changes |
 
 ## 3 Pipeline    
+
+
+```
+       ┌────────────────────────┐
+       │       SKILL.md         │  
+       └───────────┬────────────┘
+                   │
+                   ▼
+┌──────────────────────────────────────┐
+│             AI Agent                 │ ◄───────┐
+│       (eg Claude Code / CodeX)       │         │
+└──────────────────┬───────────────────┘         │
+                   │ (edit, save)                │
+                   ▼                             │ Keep / Rollback
+         ┌───────────────────┐                   │ 
+         │    *.cu (exp)     │ ───┐              │
+         └───────────────────┘    │              │
+                                  │ verify       │
+                                  ▼              │
+         ┌───────────────────┐ ───────> metric/latency
+         │  *.cu (baseline)  │  
+         └───────────────────┘  
+```
+
 1. **Baseline**    
 ```bash
 bash .claude/skills/trt-plugin-kernel-latency-auto-opt/scripts/compile.sh
