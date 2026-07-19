@@ -76,16 +76,15 @@ bash .claude/skills/trt-plugin-kernel-latency-auto-opt/scripts/start_compare.sh 
 # ai-drived   
 ```
 
-### More to see  
-https://github.com/lix19937/llm-deploy/blob/master/auto_evolution.md   
+### [More to see](https://github.com/lix19937/llm-deploy/blob/master/auto_evolution.md)   
 
 -----
 
-### [v1](v1.md) 
+### [v1](v1.md)   
 1. Pure cpp call `enqueue`
 2. Benchmark with cudaEvent     
 
-### [v2](v2.md)  
+### [v2](v2.md)   
 1. Use onnx which only include plguin node  
 2. Benchmark with trtexec   
 3. Verify with trtexec `--dumpOutput`
