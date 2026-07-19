@@ -1,4 +1,4 @@
-# tensorrt-plugin-autoresearch
+# tensorrt-plugin-autoresearch  
 
 ## 1 Background   
 [Karpathy's autoresearch](https://github.com/karpathy/autoresearch) demonstrated that a 630-line Python script could autonomously improve ML models overnight — **100 experiments in a night** — by following simple principles: one metric, constrained scope, fast verification, automatic rollback, git as memory.    
@@ -21,7 +21,7 @@ LOOP (N iterations or until done):
   7. Log the result
   8. Repeat until N iterations complete or goal is met.
 ```   
-### 2.1 The Setup Phase
+### 2.1 The Setup Phase     
 
 Before looping, Claude performs a one-time setup:   
 1. **Read context** — reads all in-scope files
@@ -30,7 +30,7 @@ Before looping, Claude performs a one-time setup:
 4. **Establish baseline** — runs verification/get baseline on current state (iteration #0)
 5. **Confirm and go** — shows setup, then begins the loop
 
-### 2.2 Critical Rules
+### 2.2 Critical Rules    
 
 | # | Rule |
 |---|------|
@@ -44,7 +44,6 @@ Before looping, Claude performs a one-time setup:
 | 8 | **When stuck, think harder** — re-read, combine near-misses, try radical changes |
 
 ## 3 Pipeline    
-
 
 ```
        ┌────────────────────────┐
