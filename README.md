@@ -5,7 +5,6 @@
 
 Based on Karpathy's autoresearch — `constraint + mechanical metric + autonomous iteration = compounding gains`. So obey the roadmap: **Baseline → Modify → Verify/Metric → Keep/Discard → Repeat forever**.    
 <br>
-
 *"Set the GOAL → The agent runs the LOOP → You wake up to results"*
 *You don't need AGI. You need a goal, a metric, and a loop that never quits.*
 <br>    
